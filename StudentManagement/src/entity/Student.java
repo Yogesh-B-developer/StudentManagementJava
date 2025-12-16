@@ -6,8 +6,6 @@ public class Student extends Person {
     private String email;
     private int age;
 
-    public static String collegeName = "AirTripe University";
-
     public Student(String email, String name, int age) {
         super(name,email);
         this.email = email;
@@ -32,4 +30,5 @@ public class Student extends Person {
         return "Email: " + email + ", Name: " + name + ", Age: " + age;
     }
 }
+
 
