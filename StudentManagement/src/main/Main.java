@@ -22,6 +22,7 @@ public class Main {
             System.out.println("4. Delete Student");
             System.out.println("5. Register For Course");
             System.out.println("6. See the course you have registered");
+            System.out.println("7. To Exit Application");
             System.out.print("Enter choice: ");
 
             choice = InputUtil.scanner.nextInt();
